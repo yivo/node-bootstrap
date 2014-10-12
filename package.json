@@ -28,6 +28,7 @@
     "yivo-node-entity": "git+https://github.com/yivo/node-entity.git",
     "yivo-node-exception": "git+https://github.com/yivo/node-exception.git",
     "yivo-node-log": "git+https://github.com/yivo/node-log.git",
-    "yivo-node-registry": "git+https://github.com/yivo/node-registry.git"
+    "yivo-node-registry": "git+https://github.com/yivo/node-registry.git",
+    "yivo-node-tasks": "git+https://github.com/yivo/node-tasks.git"
   }
 }
