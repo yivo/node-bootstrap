@@ -1,0 +1,33 @@
+{
+  "name": "yivo-node-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entity.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yivo/node-bootstrap"
+  },
+  "author": "Yaroslav Konoplov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yivo/node-bootstrap/issues"
+  },
+  "homepage": "https://github.com/yivo/node-bootstrap",
+  "files": [
+    "entity.coffee"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "fibers": "^1.0.2",
+    "lodash": "^2.4.1",
+    "mysql-activerecord": "^0.8.4",
+    "sync": "^0.2.3",
+    "yivo-node-entity": "git+https://github.com/yivo/node-entity.git",
+    "yivo-node-exception": "git+https://github.com/yivo/node-exception.git",
+    "yivo-node-log": "git+https://github.com/yivo/node-log.git",
+    "yivo-node-registry": "git+https://github.com/yivo/node-registry.git"
+  }
+}
