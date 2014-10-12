@@ -59,6 +59,7 @@ if runAsync
     catch err 
       taskErrorHandler(err)
 else
+  Sync = require 'sync'
   taskWrapper = ->
     Sync ->
       task()
